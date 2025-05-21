@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Montres - Catalogue</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #000;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+    .watch-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .watch-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .watch-card h3 {
+      margin: 15px 0 5px;
+    }
+    .watch-card p {
+      margin: 0 0 15px;
+      color: #555;
+    }
+    .watch-card a {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nos Montres</h1>
+    <p>Découvrez notre sélection exclusive de montres de luxe</p>
+  </header>
+
+  <section class="gallery">
+    <div class="watch-card">
+      <img src="https://images.unsplash.com/photo-1612817159946-4aa900be7bb2?auto=format&fit=crop&w=800&q=80" alt="Rolex Submariner">
+      <h3>Rolex Submariner Date</h3>
+      <p>14 500 €</p>
+      <a href="https://wa.me/33650287631?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20Rolex%20Submariner%20Date%20vue%20sur%20votre%20site">Je suis intéressé</a>
+    </div>
+
+    <div class="watch-card">
+      <img src="https://images.unsplash.com/photo-1588776814546-bc05e3b3a7f7?auto=format&fit=crop&w=800&q=80" alt="Patek Philippe Nautilus">
+      <h3>Patek Philippe Nautilus</h3>
+      <p>68 000 €</p>
+      <a href="https://wa.me/33650287631?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20Patek%20Philippe%20Nautilus%20vue%20sur%20votre%20site">Je suis intéressé</a>
+    </div>
+
+    <div class="watch-card">
+      <img src="https://images.unsplash.com/photo-1606214174586-0d84f89f2521?auto=format&fit=crop&w=800&q=80" alt="Audemars Piguet Royal Oak">
+      <h3>Audemars Piguet Royal Oak</h3>
+      <p>42 000 €</p>
+      <a href="https://wa.me/33650287631?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20l%27Audemars%20Piguet%20Royal%20Oak%20vue%20sur%20votre%20site">Je suis intéressé</a>
+    </div>
+  </section>
+</body>
+</html>
